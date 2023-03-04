@@ -30,3 +30,7 @@ span.badge:hover {
     background: var(--red);
     --red: rgb(242, 36, 36);
 }
+.glyphicon-inbox {
+    color: var(--red);
+    --red: rgb(247, 80, 80);
+}
