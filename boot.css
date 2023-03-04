@@ -1,0 +1,39 @@
+:root {
+    --grey: grey;
+    --alice: rgb(255, 255, 255);
+}
+body {
+    background: var(--neutral);
+    --neutral: rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: border-box;
+}
+.jumbotron {
+    background: var(--orange);
+    --orange: orange;
+    margin-top: 30px;
+}
+.page-header {
+    border: 3px solid orange;
+}
+.page-header:hover {
+    box-shadow: 0px 2px 2px 5px var(--orange);
+    --orange: orange;
+}
+.well:hover {
+    box-shadow: 2px 1px 1px 3px var(--grey);
+}
+.btn-lg {
+    background: var(--orange);
+    --orange: rgb(206, 36, 36);
+    transition: background 0.5s ease-in;
+}
+.btn-lg:hover {
+    background: var(--wine);
+    --wine: rgb(122, 55, 55);
+}
+.btn-block, .btn {
+    transition: all 0.3s ease-in-out
+}
