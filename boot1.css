@@ -1,0 +1,22 @@
+.jumbotron {
+    margin-top: 20px;
+    height: 470px;
+}
+button {
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-group-vertical {
+    transition: transform 1s ease-out;
+    float: right;
+}
+.btn-group-vertical:hover {
+    transform: scalex(1.1);
+}
+.img-thumbnail {
+    float: left;
+    position: relative;
+    top: -20px;
+    left: -30px;
+}
+.btn {
