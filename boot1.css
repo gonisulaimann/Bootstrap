@@ -10,13 +10,23 @@ button {
     transition: transform 1s ease-out;
     float: right;
 }
-.btn-group-vertical:hover {
-    transform: scalex(1.1);
-}
 .img-thumbnail {
     float: left;
     position: relative;
     top: -20px;
     left: -30px;
 }
-.btn {
+.h2 {
+    
+}
+.alert {
+    margin-top: 20px;
+}
+span.badge {
+    background: var(--red);
+    --red: rgb(221, 86, 86);
+}
+span.badge:hover {
+    background: var(--red);
+    --red: rgb(242, 36, 36);
+}
