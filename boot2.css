@@ -22,8 +22,33 @@ body {
 div.list-group > .active {
     background: var(--green);
     transition: background 0.5s ease-in;
+    color: black
 }
 div.list-group > .active:hover {
     background: var(--green);
     --green: rgb(43, 161, 43);
+}
+
+div.list-group > span {
+    background: var(--green);
+    transition: background 0.5s ease-in;
+    color: black
+}
+div.panel > div.panel-heading {
+    background: var(--green);
+    --green: rgb(81, 161, 81);
+    color: var(--white);
+}
+div.panel > div.panel-heading > span.badge {
+    background: var(--white);
+    --white: white;
+    color: var(--green);
+    --green: green;
+}
+.btn-group {
+    margin-bottom: 20px;
+}
+div.dropdown > ul > li.active {
+    background: var(--green);
+    --green: green;
 }
