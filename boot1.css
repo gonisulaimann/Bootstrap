@@ -34,3 +34,18 @@ span.badge:hover {
     color: var(--red);
     --red: rgb(247, 80, 80);
 }
+ul {
+    display: block;
+}
+ul li a:hover {
+    background: var(--green);
+    --green: green;
+}
+.colored {
+    background: var(--orange);
+    --orange: orange;
+    width: 200px;
+    height: 150px;
+    display: table;
+    float: right;
+}

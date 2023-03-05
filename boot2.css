@@ -1,0 +1,29 @@
+:root {
+    --white: white;
+    --green: rgb(73, 160, 73);
+    --orange: orange;
+
+}
+.jumbotron {
+    margin-top: 50px;
+    background:var(--grey);
+    --grey: grey;
+}
+body {
+    transition: all 0.3s ease-in-out;
+}
+.breadcrumb {
+    padding: 20px;
+}
+.breadcrumb li a {
+    color: var(--grey);
+    --grey: grey;
+}
+div.list-group > .active {
+    background: var(--green);
+    transition: background 0.5s ease-in;
+}
+div.list-group > .active:hover {
+    background: var(--green);
+    --green: rgb(43, 161, 43);
+}
