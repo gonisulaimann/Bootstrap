@@ -9,6 +9,64 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="boot2.css">
+
+    <style>
+        :root {
+    --white: white;
+    --green: rgb(73, 160, 73);
+    --orange: orange;
+
+}
+.jumbotron {
+    margin-top: 50px;
+    background:var(--grey);
+    --grey: grey;
+}
+body {
+    transition: all 0.3s ease-in-out;
+}
+.breadcrumb {
+    padding: 20px;
+}
+.breadcrumb li a {
+    color: var(--grey);
+    --grey: grey;
+}
+div.list-group > .active {
+    background: var(--green);
+    transition: background 0.5s ease-in;
+    color: black
+}
+div.list-group > .active:hover {
+    background: var(--green);
+    --green: rgb(43, 161, 43);
+}
+
+div.list-group > span {
+    background: var(--green);
+    transition: background 0.5s ease-in;
+    color: black
+}
+div.panel > div.panel-heading {
+    background: var(--green);
+    --green: rgb(81, 161, 81);
+    color: var(--white);
+}
+div.panel > div.panel-heading > span.badge {
+    background: var(--white);
+    --white: white;
+    color: var(--green);
+    --green: green;
+}
+.btn-group {
+    margin-bottom: 20px;
+}
+div.dropdown > ul > li.active {
+    background: var(--green);
+    --green: green;
+}
+
+    </style>
 </head>
 <body>
 </body>
