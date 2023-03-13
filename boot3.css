@@ -1,0 +1,9 @@
+:root {
+    --red: red;
+}
+div.btn-group > ul > .active {
+    background: var(--red);
+}
+.lol {
+    display: block;
+}
