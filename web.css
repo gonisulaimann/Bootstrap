@@ -1,0 +1,28 @@
+:root {
+    --green: green;
+    --red: red;
+    --grey: grey;
+}
+body {
+    background: var(--alice);
+    --alice: rgb(255, 255, 255);
+    margin: 70px;
+}
+
+ul {
+    margin-top: 20px;
+}
+img.position-20px {
+    position: relative;
+    left: 10px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
+    background: var(--orange);
+    --orange: rgb(255, 81, 0);
+}
+.nav-pills > li > a:hover {
+    background: var(--bluedarked);
+    --bluedarked: rgb(77, 98, 167);
+    color: var(--white);
+    --white: white;
+}
