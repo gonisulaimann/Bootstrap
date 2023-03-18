@@ -1,0 +1,13 @@
+:root {
+    --green: green;
+    --red: red;
+    --grey: grey;
+}
+body {
+    background: var(--alice);
+    --alice: rgb(255, 255, 255);
+}
+
+ul {
+    margin-top: 20px;
+}
