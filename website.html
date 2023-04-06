@@ -11,10 +11,40 @@
     <title>WEBSITE: Creating responsive site</title>
 </head>
 <body>
-    <div class="container">
-        <div class="jumbotron">
-            
-        </div>
-    </div>
-</body>
+    <p id="goat">This is a goat</p>
+    <div id="demo">Hello</div>
+    <p id="result">5 + 7 =</p>
+    <div>His name is:</div>
+    <p id="name">g</p>
+    <p id="myname"></p>
+    <div id="value"></div>
+    <p id="string"></p>
+    <p id="op"></p>
+    <p id="txt"></p>
+    <script>
+        document.getElementById("goat").innerHTML = "Another Goat"
+        var x = 5; var y = 7; var z = x + y;
+        document.getElementById("result").innerHTMl = z
+        var firstname = "algoni";
+        var secondname = "sulaiman";
+        document.getElementById("name").innerHTMl = firstname + secondname;
+        var firstname = "Algoni";
+        var lastname = "Sulaiman";
+        document.getElementById("myname").innerHTML = firstname + " " + lastname;
+        var pi = 3.14;
+        pi += 10;
+        var person = "John Doe";
+        var answer = 'Yes I am!';
+        document.getElementById("value").innerHTML = answer + " " + person + " " + "and" + " " + pi + " " +"long";
+        var one = "5" + 2 + 3;
+        document.getElementById("string").innerHTML = one;
+        var w = 10;
+         w += 5;
+        document.getElementById("op").innerHTML = w;
+        var txtone = "John";
+        var txttwo = "Doe";
+        var txtthree = txtone + " " + txttwo;
+        document.getElementById("txt").innerHTMl = txtthree;
+    </script>
+</body> 
 </html>
