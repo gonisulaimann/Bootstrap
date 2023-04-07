@@ -1,0 +1,18 @@
+:root {
+    --orange: blue;
+    --white: white;
+}
+body {
+    color: rgb(101, 99, 99);
+}
+code {
+    background: var(--orange);
+    color: var(--white);
+}
+img.img-rounded:hover {
+    box-shadow: 1px 2px 2px 2px grey;
+}
+div.alert {
+    background: var(--orange);
+    color: white;
+}
