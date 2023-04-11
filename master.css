@@ -1,6 +1,7 @@
 :root {
     --orange: blue;
     --white: white;
+    --green: green;
 }
 body {
     color: rgb(101, 99, 99);
